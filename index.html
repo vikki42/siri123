@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Good evening, Vikki</h1>
+        </header>
+        <main>
+            <div id="input-section">
+                <textarea id="input-entry" placeholder="How can I help you today?"></textarea>
+                <button id="send-btn">Send</button>
+            </div>
+            <div id="recent-chats">
+                <h2>Your recent chats</h2>
+                <div id="chat-cards">
+                    <!-- Sample chat cards -->
+                    <div class="chat-card">Converting Desktop App to Website<br><small>19 minutes ago</small></div>
+                    <div class="chat-card">Comprehensive Python Chat Assistant with GUI<br><small>34 minutes ago</small></div>
+                    <div class="chat-card">Explaining Code Snippet<br><small>14 hours ago</small></div>
+                    <div class="chat-card">Automate Outlook Attachment Downloads<br><small>2 days ago</small></div>
+                    <div class="chat-card">Creating a Chatbot with Groq API<br><small>4 days ago</small></div>
+                    <div class="chat-card">Automate File Organizing in Windows<br><small>4 days ago</small></div>
+                </div>
+            </div>
+            <div id="chat-display"></div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
